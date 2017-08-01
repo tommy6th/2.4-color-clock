@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font: 50px/50px Lato;
+  height: 50px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+#clock {
+  color: white;
+  font: 100px/100px Lato;
+  height: 100px;
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
+
+#status {
+  color: #ffffff;
+  position: relative;
+  top: 225px;
+  align-self: center;
+}
